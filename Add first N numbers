@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() 
+{
+    int n, i, add;
+    printf("Add the first N numbers.\nIntroduce N:");
+    scanf("%d",&n);
+    add=0;
+    i=1;
+    while(i<=n)
+    {
+        add=add+1;
+        printf("\nAdd %d, Partial %d", i, add);
+        i=i+1;
+    }
+    printf("\nTotal: %d\n", add);
+
+    return 0;
+}
