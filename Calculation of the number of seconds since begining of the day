@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() 
+{
+    int hours, minutes, seconds;
+    printf("Calculation of the number of seconds since begining of the day.\nHour: ");
+    scanf("%d", &hours);
+    printf("Minutes: ");
+    scanf("%d", &minutes);
+    printf("Seconds: ");
+    scanf("%d", &seconds);
+    
+    printf("Number of seconds since begining of the day: %d", seconds+60*(minutes+60*hours));
+
+    return 0;
+}
